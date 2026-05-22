@@ -1,0 +1,364 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+.navbar-container{
+    background-color: darksalmon;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.navbar-links{
+    column-gap: 20px;
+    display: flex;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-link a:hover{
+    text-decoration: underline;
+}
+.font-icon{
+    display: none;
+}
+.side-navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    top: 0%;
+    left: -100%;
+    width: 50%;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    z-index: 10;
+    transition: 0.5s;
+}
+.side-navbar-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.side-navbar-link{
+    margin-top: 30px;
+}
+.side-navbar-link a:hover{
+    text-decoration: underline;
+}
+.side-icon{
+    text-align: right;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    gap: 50px;
+}
+.header-button{
+    margin: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.header-image{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.service{
+    padding: 20px;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+.service-container-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Tradition,
+.ethnic-wear
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Tradition-container,
+.ethnic-wear-container{
+    flex-basis: 20%;
+    position: relative;
+    justify-content: space-around;
+    
+}
+.Tradition-container:hover
+.ethnic-wear-container:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+.Tradition img,
+.ethnic-wear img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}    
+.Tradition button,
+.ethnic-wear button{
+    border: none;
+    color: black;
+    background-color: #f2f4f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.news{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+.search{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+}
+.subscribe button{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.footer-container{
+    margin: 10px;
+    padding: 10px;
+}
+.footer-icon{
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.footer-icon{
+    color: white;
+}
+.collection-page{
+    margin: 20px;
+}
+.search-input{
+    width: 70%;
+    display: flex;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.text{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+.text:focus{
+    outline: none;
+}
+
+.product-container{
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product{
+    text-align: center;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+.product img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.contact-page{
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-details{
+    margin: 10px;
+    padding: 20px;
+}
+.contact-details input{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.contact-details textarea{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.contact-details input:focus{
+    outline: none;
+}
+.contact-details textarea:focus{
+    outline: none;
+}
+.product-page{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categories button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+    font-size: 20px;
+}
+.categories button:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+.categories button:active{
+    background-color: darksalmon;
+    color: white;
+}
+
+.Saree-container,
+.Churidar-container,
+.Casuals-container,
+.Modern-container{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.Saree img,
+.Churidar img,
+.Casuals img,
+.Modern img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Saree img:hover,
+.Churidar img:hover,
+.Casuals img:hover,
+.Modern img:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+.Saree button,
+.Churidar button,
+.Casuals button,
+.Modern button{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width:700px){
+.font-icon{
+    display: block;
+}
+.navbar-links{
+    display: none;
+}
+.header-image{
+    display: none;
+}
+.service-container-2{
+    flex-direction: column;
+}
+.Tradition{
+    justify-content: center;
+}
+.Tradition-container{
+    flex-basis: 45%;
+}
+.contact-page{
+    width: 90%;
+}
+.saree-container,
+.sudithar-container,
+.casuals-container,
+.modern-container{
+    grid-template-columns: repeat(2,1fr);
+}
+.product-container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}

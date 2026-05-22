@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <h1>MIMSB Boutique</h1>
+
+        <!--navbar-->
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="product.html">Product</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="font-icon" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+            <p class="side-icon" onclick="closenavbar()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="index.html">Home</a></p>
+                <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+                <p class="side-navbar-link"><a href="product.html">Products</a></p>
+                <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            </div>
+    </div>
+
+    <!--collection page-->
+    <div class="collection-page">
+        <form class="search-input" onsubmit="return false">
+            <input type="text" class="text" id="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+    </div>
+    <div class="product-container" id="product-items">
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.VMUMIy1lFE_t1IbD49zJaQHaJE?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Churidar">
+            <p>Churidar</p>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/f9/0b/fa/f90bfa034117c633b3ea27c5361ad51a.jpg" alt="Churidar">
+            <p>Churidar</p>
+        </div>
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.SOzILR23I4uTb8mVcb3LhwHaKt?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Churidar">
+            <p>Churidar</p>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.y269ToWQTDM7UP0i8itCcgHaO6?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Churidar">
+            <p>Churidar</p>
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.fAUleREmlPCUsZUposkrKAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Casuals">
+            <p>Casuals</p>
+        </div>
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.rjNuK3DEx6khqtgGv4WciAHaLj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="saree">
+            <p>Yellow cotton saree</p>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.qAfUEDYYEeSOjd1Ktr8_RAHaLI?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="saree">
+            <p>Wedding saree</p>
+        </div>    
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.m01zc8LD5bx7WXd_RkqDVQHaJM?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="saree">
+            <p>Pink saree</p>
+        </div>
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.9k5eJrawp9uV5ZRpcteYeQHaQm?rs=1&pid=ImgDetMain&o=7&rm=3" alt="saree">
+            <p>Yellow fancy</p>
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.m0GZbpr6VMJkON2btDx45gHaKL?rs=1&pid=ImgDetMain&o=7&rm=3" alt="saree">
+            <p>black saree</p>
+        </div>
+    </div>
+
+       <!--footer page-->
+
+        <div class="footer">
+            <h2>MIMSB Boutique</h2>
+            <p>Fashion Meets Comfort</p>
+            <div class="footer-container">
+                <p>MIMSB Boutique provides trendy fashion collections with quality and comfort at affordable prices.</p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <p>mimsbboutique@gmail.com</p>
+            </div>
+        </div>
+    <script src="collection.js"></script>
+
+</body>
+</html>

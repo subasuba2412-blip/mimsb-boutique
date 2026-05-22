@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <h1>MIMSB Boutique</h1>
+
+        <!--navbar-->
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="product.html">Products</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="font-icon" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </div>
+
+    <!--side navbar-->
+
+    <div class="side-navbar">
+            <p class="side-icon" onclick="closenavbar()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="index.html">Home</a></p>
+                <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+                <p class="side-navbar-link"><a href="product.html">Products</a></p>
+                <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            </div>
+    </div>
+
+    <!--search bar-->
+
+    <div class="product-page">
+        <form class="search-input" onsubmit="return false">
+            <input type="text" class="text" id="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+    </div>
+
+    <!--products-->
+    
+    <section class="products-page">
+        <div class="categories">
+            <button>Saree</button>
+            <button>Churidar</button>
+            <button>Casuals</button>
+            <button>Modern Wear</button>
+        </div>
+        <div class="Saree-container">
+        <div class="product Saree">
+            <img src="https://i.pinimg.com/736x/e4/38/01/e43801ce8e86e1487d121811b62d832f.jpg" alt="yellow saree">
+            <h3>yellow saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.tzqOjR1J-3YQpgBCNSHv0QHaLn?rs=1&pid=ImgDetMain&o=7&rm=3" alt="fancy saree">
+            <h3>fancy saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://i.etsystatic.com/31115559/r/il/60f31a/6023399032/il_fullxfull.6023399032_j0rd.jpg" alt="cotton saree">
+            <h3>cotton saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://th.bing.com/th/id/OIP.3SM3RWfa0lRV0bY4WTiekAHaJQ?w=178&h=223&c=7&r=0&o=7&pid=1.7&rm=3" alt="Wedding saree">
+            <h3>Wedding saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://media.urbanwomania.com/wp-content/uploads/2024/06/Raspberry-Pink-Banarasi-Satin-Silk-Saree.webp" alt="Banarasi sari">
+            <h3>Banarasi sari</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.erOnXfVur0adgOKfqgVw2wHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kanchipuram saree">
+            <h3>Kanchipuram saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.UPgCwF5MEtNG9LdqDHbXtwHaKX?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tussar Silk Saree">
+            <h3>Tussar Silk Saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        <div class="product Saree">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.vjBgS6V8KDukFYN9eX5tsAHaJ4?w=768&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Jamdani Saree">
+            <h3>Jamdani Saree</h3>
+            <p>$500</p>
+            <button type="button">Buy now</button>
+        </div>
+        </div>
+        <div class="Churidar-container">
+            <div class="product Churidar">
+                <img src="https://tse1.explicit.bing.net/th/id/OIP.LFYM6ikGT_KTTAABkiHt0AHaME?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Churidar">
+                <h3>New Model Churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Churidar">
+                <img src="https://th.bing.com/th/id/OIP.8WrTJ-FM_uv87IHtUglkXQHaJ4?w=178&h=237&c=7&r=0&o=7&pid=1.7&rm=3" alt="Churidar">
+                <h3>Churidar Kurta</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Churidar">
+                <img src="https://i.pinimg.com/originals/19/0b/04/190b04f5a9171a299738293148380758.jpg" alt="Churidar">
+                <h3>Kerala Churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+             <div class="product Churidar">
+                <img src="https://i.pinimg.com/736x/90/60/f3/9060f3f88a161f9e3aeaded5b2c12319.jpg" alt="Churidar">
+                <h3>Black Churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+             <div class="product Churidar">
+                <img src="https://assets0.mirraw.com/images/8265484/image_zoom.jpeg?1599467238" alt="Churidar">
+                <h3>cotton churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Churidar">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.vPxe1K-amcfeDmlsAtIY_AHaKt?w=1000&h=1447&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Churidar">
+                <h3>Olive Green Churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Churidar">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.s6eSmunrHUkXLld6O8eoTQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Churidar">
+                <h3>Long Churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Churidar">
+                <img src="https://i5.walmartimages.com/seo/Sangeet-Function-Wear-Designer-Pakistani-Indian-Sewn-Churidar-Salwar-Kameez-Dress-Purple-L-42_65e615ff-e229-483d-93a4-453c34641720.9f53d2c42820bb138c84fcb02b8f3f48.jpeg" alt="Churidar">
+                <h3>Pakistani Churidar</h3>
+                <p>$1000</p>
+                <button type="button">Shop now</button>
+            </div>
+
+        </div>
+        <div class="Casuals-container">
+            <div class="product Casuals">
+                <img src="https://i.pinimg.com/736x/36/06/fb/3606fb778a1998b926771ec4f1f7e812.jpg" alt="casuals">
+                <h3>Casual Dress Wear</h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Casuals">
+                <img src="https://i.pinimg.com/originals/14/1d/f3/141df3ff0061c64de849d1a49b65ea0b.jpg" alt="casuals">
+                <h3>Casual Dress for Plus Size</h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Casuals">
+                <img src="https://tse1.mm.bing.net/th/id/OIF.U2uPVa3tr8rctmYhwrmH0w?rs=1&pid=ImgDetMain&o=7&rm=3" alt="casuals">
+                <h3>Casual Summer Wear</h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Casuals">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.q-VZ7rpoiSb6MG-qNbGkeAHaOI?rs=1&pid=ImgDetMain&o=7&rm=3" alt="casuals">
+                <h3>Women's Summer Casual </h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Casuals">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.M9Dgx4NE_7gChUQAIpWewAHaLO?w=564&h=855&rs=1&pid=ImgDetMain&o=7&rm=3" alt="casuals">
+                <h3>Women's Summer Casual</h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Casuals">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.Q5q9QTH_uxe9jEz8F3lfHwHaNk?rs=1&pid=ImgDetMain&o=7&rm=3" alt="casuals">
+                <h3>Business Casual Fashion</h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Casuals">
+                <img src="https://th.bing.com/th/id/OIP.g38QZNAVFiegt2Vdgp0S_wHaKs?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="casuals">
+                <h3>Summer Business Casual Attire</h3>
+                <p>$700</p>
+                <button type="button">Shop now</button>
+            </div>
+        </div>
+        <div class="Modern-container">
+            <div class="product Modern">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.0qZkhU1lpLS1jnzuw9d5mAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>Modern frock</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://img.freepik.com/premium-photo/dress-made-out-fabric-with-flowers-it_893012-86358.jpg" alt="Modern Wear">
+                <h3>Modern gown</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.7Vja3NmaHTV0XIYzYyABAQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>Modern Prom Dress</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.MBtCwq9cLTXkhN0qTcKDYwHaLl?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>Beaded Prom Dress</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://th.bing.com/th/id/OIP.58nN8Rd-56FJtfijRX_epwHaLH?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>Elegant Prom Dress</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.HDC6OY_5MQC3YT7T_4CcLQAAAA?w=246&h=308&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>Really Pretty Prom Dresses</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.uTt_pKpdI6o_DbZ8D1dW_gHaKQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>Korean Modern Dress</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+            <div class="product Modern">
+                <img src="https://th.bing.com/th/id/OIP.AhKR0Ri0CZB-MTsuRAlfmwAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Wear">
+                <h3>New-Look Black Dress</h3>
+                <p>$2000</p>
+                <button type="button">Shop now</button>
+            </div>
+        </div>
+    </section>
+
+    <!--footer page-->
+
+        <section class="footer">
+            <h2>MIMSB Boutique</h2>
+            <p>Fashion Meets Comfort</p>
+            <div class="footer-container">
+                <p>MIMSB Boutique provides trendy fashion collections with quality and comfort at affordable prices.</p>
+                <p class="footer-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </p>
+        
+                <p>mimsbboutique@gmail.com</p>
+            </div>
+        </section>
+    <script src="product.js"></script>
+
+</body>
+</html>
